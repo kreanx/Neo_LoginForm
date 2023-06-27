@@ -3,15 +3,15 @@ import {Form} from "../../Components/Form/Form"
 import * as S from "../styled"
 import { CircleColor } from "../../Components/Circle/Circle"
 
-export const Login: React.FC = () => {
+export const Register: React.FC = () => {
     return (
         <S.StyledPage>
             <Info
                 buttonLabel="Skip the lag?"
                 buttonLink="/"
-                infoText="Welcome Back!"
+                infoText="Roll the Carpet!"
             />
-            <Form color={CircleColor.Blue} title="Login" subTitle="Glad you’re back!" type="Login" />
+            <Form color={CircleColor.Purple} title="Signup" subTitle="Just some details to get you in!" type="Register" />
         </S.StyledPage>
     )
 }
